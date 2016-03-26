@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.akar.myportfolio_project0.MainActivity"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nanodegree"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:typeface="sans"
+            android:id="@+id/txt1"/>
+        <Button
+            android:layout_below="@+id/txt1"
+            android:text="@string/spotify"
+            android:id="@+id/btn1"
+            style="@style/My_Button"/>
+        <Button
+            android:layout_below="@+id/btn1"
+            style="@style/My_Button"
+            android:text="@string/scores"
+            android:id="@+id/btn2"
+            />
+        <Button
+            android:layout_below="@+id/btn2"
+            style="@style/My_Button"
+            android:text="@string/library"
+            android:id="@+id/btn3"
+            />
+        <Button
+            android:layout_below="@+id/btn3"
+            style="@style/My_Button"
+            android:text="@string/bigger"
+            android:id="@+id/btn4"
+            />
+        <Button
+            android:layout_below="@+id/btn4"
+            style="@style/My_Button"
+            android:text="@string/xyz"
+            android:id="@+id/btn5"
+            />
+        <Button
+            android:layout_below="@+id/btn5"
+            style="@style/My_Button"
+            android:text="@string/capstone"
+            android:id="@+id/btn6"
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
